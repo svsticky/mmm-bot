@@ -1,0 +1,23 @@
+[project]
+name = "mmm-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Job Vonk", email = "sticcpistt@icloud.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "gdown>=5.2.2",
+    "google-api-python-client>=2.198.0",
+    "gspread>=6.2.1",
+    "pillow>=11.3.0",
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+mmm-bot = "mmm_bot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
