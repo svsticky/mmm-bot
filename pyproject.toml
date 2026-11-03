@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Job Vonk", email = "sticcpistt@icloud.com" }
 ]
-requires-python = ">=3.15"
+requires-python = ">=3.12"
 dependencies = [
     "gdown>=5.2.2",
     "google-api-python-client>=2.198.0",
