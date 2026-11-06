@@ -78,11 +78,11 @@ class Listmonk:
         body["subject"] = subject
 
         attribs = dict(camp.get("attribs") or {}) # other attributes will remain
-        attribs["Author"] = author
-        attribs["Banner"] = banner_listmonk_link
-        attribs["Story"] = story
-        attribs["Dilemma_1"] = dilemma_1
-        attribs["Dilemma_2"] = dilemma_2
+        attribs["author"] = author
+        attribs["banner"] = banner_listmonk_link
+        attribs["story"] = story
+        attribs["dilemma1"] = dilemma_1
+        attribs["dilemma2"] = dilemma_2
         attribs["activities"] = activity_ids
 
         # Activities
